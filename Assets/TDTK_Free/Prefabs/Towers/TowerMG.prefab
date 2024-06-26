@@ -647,7 +647,7 @@ MonoBehaviour:
     buildDuration: 1
     unBuildDuration: 1
     shootObjectT: {fileID: 0}
-    shootObject: {fileID: 11400000, guid: 69d07b92e675a034c80025fe8d67c5d9, type: 3}
+    shootObject: {fileID: 11400000, guid: f8f20134fb1add94da92a01c7f71018d, type: 3}
     useCustomDesp: 0
     desp: 
   - damageMin: 3
@@ -706,7 +706,7 @@ MonoBehaviour:
   thisT: {fileID: 0}
   turretObject: {fileID: 400018}
   barrelObject: {fileID: 0}
-  rotateTurretAimInXAxis: 1
+  rotateTurretAimInXAxis: 0
   target: {fileID: 0}
   targetPriority: 4
   buffedUnit: []
