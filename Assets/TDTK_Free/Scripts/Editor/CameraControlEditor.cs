@@ -50,7 +50,7 @@ namespace TDTK{
 			
 			#if UNITY_IPHONE || UNITY_ANDROID || UNITY_WP8 || UNITY_BLACKBERRY
 			
-			EditorGUILayout.BeginHorizontal();
+			/*EditorGUILayout.BeginHorizontal();
 			cont=new GUIContent("EnableTouchPan:", "Check to enable finger drag on screen to pan the camera");
 			EditorGUILayout.LabelField(cont, GUILayout.Width(width));
 			instance.enableTouchPan=EditorGUILayout.Toggle(instance.enableTouchPan);
@@ -72,7 +72,7 @@ namespace TDTK{
 			cont=new GUIContent("RotateSensitivity:", "The input sensitivity to the rotate input (two fingers drag)");
 			EditorGUILayout.LabelField(cont, GUILayout.Width(width));
 			instance.rotationSpeed=EditorGUILayout.FloatField(instance.rotationSpeed);
-			EditorGUILayout.EndHorizontal();
+			EditorGUILayout.EndHorizontal();*/
 			
 			#else
 			/*
