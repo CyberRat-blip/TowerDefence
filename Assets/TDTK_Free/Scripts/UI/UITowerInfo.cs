@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using TDTK;
+using TMPro;
 
 namespace TDTK {
 
@@ -19,10 +20,10 @@ namespace TDTK {
 		public Transform anchorRight;
 		public Transform frameT;
 		
-		public Text txtName;
-		public Text txtLvl;
-		public Text txtDesp1;
-		public Text txtDesp2;
+		public TextMeshProUGUI txtName;
+		public TextMeshProUGUI txtLvl;
+		public TextMeshProUGUI txtDesp1;
+		public TextMeshProUGUI txtDesp2;
 		
 		private GameObject rscObj;
 		public List<UnityButton> rscObjList=new List<UnityButton>();

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -24,7 +24,7 @@ namespace TDTK {
 	[System.Serializable]
 	public class UnityButton : UIObject{
 		public Button button;
-		public Text label;
+		public TextMeshProUGUI label;
 		public Image imageBG;
 		public Image imageIcon;
 		
@@ -40,7 +40,7 @@ namespace TDTK {
 					imageIcon=child.GetComponent<Image>();
 				}
 				else if(child.name=="Text"){
-					label=child.GetComponent<Text>();
+					label=child.GetComponent<TextMeshProUGUI>();
 				}
 			}
 		}

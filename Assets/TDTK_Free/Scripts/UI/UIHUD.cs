@@ -5,15 +5,16 @@ using System.Collections;
 using System.Collections.Generic;
 
 using TDTK;
+using TMPro;
 
 namespace TDTK {
 
 	public class UIHUD : MonoBehaviour {
 
-		public Text txtLife;
-		public Text txtWave;
+		public TextMeshProUGUI txtLife;
+		public TextMeshProUGUI txtWave;
 		
-		public Text txtTimer;
+		public TextMeshProUGUI txtTimer;
 		public UnityButton buttonSpawn;
 		
 		public List<UnityButton> rscObjList=new List<UnityButton>();
