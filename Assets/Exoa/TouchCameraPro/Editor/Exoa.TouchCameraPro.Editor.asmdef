@@ -1,0 +1,17 @@
+{
+    "name": "Exoa.TouchCameraPro.Editor",
+    "references": [
+        "GUID:f870531d5c0c3cc4ea9d6a1119563164"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

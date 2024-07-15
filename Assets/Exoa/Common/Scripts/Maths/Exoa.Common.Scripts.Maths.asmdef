@@ -1,0 +1,15 @@
+{
+    "name": "Exoa.Commons.Scripts.Maths",
+    "references": [
+        "GUID:36da71912cb4ce946ab87239cdafa6a9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

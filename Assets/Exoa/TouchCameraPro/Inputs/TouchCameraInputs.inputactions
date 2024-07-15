@@ -1,0 +1,71 @@
+{
+    "name": "TouchCameraInputs",
+    "maps": [
+        {
+            "name": "TouchCamera",
+            "id": "d44117eb-949d-4cd9-a1be-cd5a3a3f957e",
+            "actions": [
+                {
+                    "name": "SwitchPerspective",
+                    "type": "Button",
+                    "id": "89464eb5-d073-4895-a54b-41aedb998bbb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ResetCamera",
+                    "type": "Button",
+                    "id": "f94bb8ed-d77b-4b9b-83d0-8de3d54af3ff",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2a9ad3b4-4330-4053-9821-d853b099a589",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchCameraScheme",
+                    "action": "SwitchPerspective",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfd67b0e-321d-4d00-aa01-ff9fb365b8a5",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchCameraScheme",
+                    "action": "ResetCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "TouchCameraScheme",
+            "bindingGroup": "TouchCameraScheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
