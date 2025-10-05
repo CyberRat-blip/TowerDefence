@@ -59,7 +59,7 @@ namespace TDTK
             for (int i = 0; i < rscList.Count; i++)
             {
                 if (i == 0) rscObjList[i].Init();
-                else rscObjList.Add(rscObjList[0].Clone("RscObj" + i, new Vector3(i * 80, 0, 0)));
+                else rscObjList.Add(rscObjList[0].Clone("RscObj" + i, new Vector3(i * 120, 0, 0)));
                 rscObjList[i].imageIcon.sprite = rscList[i].icon;
             }
             rscObj = rscObjList[0].rootT.parent.gameObject;
@@ -69,12 +69,12 @@ namespace TDTK
             for (int i = 0; i < rscList.Count; i++)
             {
                 if (i == 0) rscTooltipObjList[i].Init();
-                else rscTooltipObjList.Add(rscTooltipObjList[0].Clone("RscObj" + i, new Vector3(i * 50, 0, 0)));
+                else rscTooltipObjList.Add(rscTooltipObjList[0].Clone("RscObj" + i, new Vector3(i * 100, 0, 0)));
                 rscTooltipObjList[i].imageIcon.sprite = rscList[i].icon;
             }
-            float offset = 0.5f * (rscList.Count - 1) * 50;
+            float offset = 0.5f * (rscList.Count - 1) * 100;
             for (int i = 0; i < rscList.Count; i++) rscTooltipObjList[i].rootT.localPosition += new Vector3(-offset, 0, 0);
-            rscTooltipObj.GetComponent<RectTransform>().sizeDelta += new Vector2((rscList.Count - 1) * 50, 0);
+            rscTooltipObj.GetComponent<RectTransform>().sizeDelta += new Vector2((rscList.Count - 1) * 100, 0);
 
             rscTooltipObj.SetActive(false);
 
@@ -261,7 +261,7 @@ namespace TDTK
             Update();
 
             txtName.text = tower.unitName;
-            txtLvl.text = "lvl" + tower.GetLevel();
+            txtLvl.text = "Lvl " + tower.GetLevel();
             txtDesp1.text = tower.GetDespStats();
             txtDesp2.text = tower.GetDespGeneral();
 

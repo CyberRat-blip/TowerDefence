@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using TDTK;
+using TMPro;
 
 namespace TDTK {
 	
@@ -46,7 +47,7 @@ namespace TDTK {
 		
 		public List<Slider> buildingBarList=new List<Slider>();
 		public List<UnitOverlay> overlayList=new List<UnitOverlay>();
-		public List<Text> textOverlayList=new List<Text>();
+		public List<TextMeshProUGUI> textOverlayList=new List<TextMeshProUGUI>();
 		
 		public List<Unit> overlayedUnitList=new List<Unit>();
 		
@@ -97,7 +98,7 @@ namespace TDTK {
 			for(int i=0; i<10; i++){
 				if(i>0){
 					GameObject obj=(GameObject)Instantiate(textOverlayList[0].gameObject);
-					textOverlayList.Add(obj.GetComponent<Text>());
+					textOverlayList.Add(obj.GetComponent<TextMeshProUGUI>());
 					textOverlayList[i].transform.SetParent(textOverlayList[0].transform.parent);
 				}
 				textOverlayList[i].text="";
@@ -131,8 +132,8 @@ namespace TDTK {
 		
 		void OnTextOverlay(TextOverlay overlayInstance){
 			if(UI.DisableTextOverlay()) return;
-			
-			Text txt=GetUnusedTextOverlay();
+
+            TextMeshProUGUI txt =GetUnusedTextOverlay();
 			
 			txt.text=overlayInstance.msg;
 			if(overlayInstance.useColor) txt.color=overlayInstance.color;
@@ -145,7 +146,7 @@ namespace TDTK {
 			
 			StartCoroutine(TextOverlayRoutine(txt));
 		}
-		IEnumerator TextOverlayRoutine(Text txt){
+		IEnumerator TextOverlayRoutine(TextMeshProUGUI txt){
 			Transform txtT=txt.transform;
 			float duration=0;
 			while(duration<1){
@@ -205,8 +206,8 @@ namespace TDTK {
 			overlayList.Add(overlay);
 			return overlay;
 		}
-		
-		Text GetUnusedTextOverlay(){
+
+        TextMeshProUGUI GetUnusedTextOverlay(){
 			for(int i=0; i<textOverlayList.Count; i++){
 				if(textOverlayList[i].text=="") return textOverlayList[i];
 			}
@@ -214,7 +215,7 @@ namespace TDTK {
 			GameObject obj=(GameObject)Instantiate(textOverlayList[0].gameObject);
 			obj.transform.SetParent(textOverlayList[0].transform.parent);
 			obj.transform.localScale=textOverlayList[0].transform.localScale;
-			Text txt=obj.GetComponent<Text>();
+            TextMeshProUGUI txt =obj.GetComponent<TextMeshProUGUI>();
 			textOverlayList.Add(txt);
 			return txt;
 		}

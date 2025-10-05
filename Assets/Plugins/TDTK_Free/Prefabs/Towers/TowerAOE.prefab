@@ -497,7 +497,7 @@ MonoBehaviour:
   deadEffectObj: {fileID: 0}
   type: 1
   targetMode: 0
-  disableInBuildManager: 1
+  disableInBuildManager: 0
   builtDuration: 0
   buildDuration: 0
   prevLevelTower: {fileID: 0}

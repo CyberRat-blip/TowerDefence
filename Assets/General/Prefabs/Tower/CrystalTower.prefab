@@ -387,7 +387,7 @@ MonoBehaviour:
   instanceID: -1
   unitName: CristalTower
   iconSprite: {fileID: 0}
-  desp: 
+  desp: test Test
   defaultHP: 30
   fullHP: 10
   HP: 10
@@ -438,8 +438,8 @@ MonoBehaviour:
     unBuildDuration: 1
     shootObjectT: {fileID: 0}
     shootObject: {fileID: 11400000, guid: 17333c2390d537144a205871c393bcc5, type: 3}
-    useCustomDesp: 0
-    desp: 
+    useCustomDesp: 1
+    desp: TEst
   - damageMin: 5
     damageMax: 6
     cooldown: 1

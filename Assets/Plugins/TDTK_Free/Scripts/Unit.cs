@@ -686,8 +686,8 @@ namespace TDTK {
 				float currentDmgMin=GetDamageMin();
 				float currentDmgMax=GetDamageMax();
 				if(currentDmgMax>0){
-					if(currentDmgMin==currentDmgMax) text+="Damage:		 "+currentDmgMax.ToString("f0");
-					else text+="Damage:		 "+currentDmgMin.ToString("f0")+"-"+currentDmgMax.ToString("f0");
+					if(currentDmgMin==currentDmgMax) text+="Damage: "+currentDmgMax.ToString("f0");
+					else text+="Damage: "+currentDmgMin.ToString("f0")+"-"+currentDmgMax.ToString("f0");
 				}
 				
 				float currentAOE=GetAOERadius();
@@ -695,9 +695,9 @@ namespace TDTK {
 				//if(currentAOE>0) text+="\nAOE Radius: "+currentAOE;
 				
 				float critChance=GetCritChance();
-				if(critChance>0) text+="\nCritical:		 "+(critChance*100).ToString("f0")+"%";
+				if(critChance>0) text+="\nCritical: "+(critChance*100).ToString("f0")+"%";
 				
-				if(text!="") text+="\n";
+				if(text!="") text+="";
 				
 				Stun stun=GetStun();
 				if(stun.IsValid()) text+="\nChance to stuns target";
