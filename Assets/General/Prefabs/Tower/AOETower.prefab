@@ -420,9 +420,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabID: 12
   instanceID: -1
-  unitName: AOETower
+  unitName: AOE Tower
   iconSprite: {fileID: -1092112229, guid: a3e6ba056b20b764496e147245840825, type: 3}
-  desp: 
+  desp: 'Releases a slowing pulse that weakens all enemies within range.
+
+
+    Special:
+    Reduces enemy movement speed.'
   defaultHP: 30
   fullHP: 10
   HP: 10
@@ -468,15 +472,15 @@ MonoBehaviour:
       criticalBuff: 0
       regenHP: 0
     rscGain: 
-    cost: 1400000000000000
+    cost: 140000000a000000
     buildDuration: 1
     unBuildDuration: 1
     shootObjectT: {fileID: 0}
     shootObject: {fileID: 0}
     useCustomDesp: 0
     desp: 
-  - damageMin: 1
-    damageMax: 1
+  - damageMin: 2
+    damageMax: 2
     cooldown: 1.5
     clipSize: -1
     reloadDuration: 2
@@ -505,7 +509,7 @@ MonoBehaviour:
       criticalBuff: 0
       regenHP: 0
     rscGain: 
-    cost: 1400000000000000
+    cost: 140000000a000000
     buildDuration: 1
     unBuildDuration: 1
     shootObjectT: {fileID: 0}

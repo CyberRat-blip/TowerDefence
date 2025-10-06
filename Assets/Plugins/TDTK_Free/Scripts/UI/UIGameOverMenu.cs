@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using TDTK;
+using TMPro;
 
 namespace TDTK {
 
@@ -13,7 +14,7 @@ namespace TDTK {
 		private GameObject thisObj;
 		private static UIGameOverMenu instance;
 		
-		public Text txtTitle;
+		public TextMeshProUGUI txtTitle;
 		public GameObject butContinueObj;
 		
 		void Awake(){

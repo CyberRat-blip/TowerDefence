@@ -133,9 +133,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabID: 13
   instanceID: -1
-  unitName: ArrowTower
+  unitName: Arrow Tower
   iconSprite: {fileID: -1253383454, guid: a3e6ba056b20b764496e147245840825, type: 3}
-  desp: 
+  desp: 'Shoots fast arrows with a chance to deal critical damage.
+
+
+    Special:
+    High attack speed and consistent damage output.'
   defaultHP: 30
   fullHP: 10
   HP: 10
@@ -181,7 +185,7 @@ MonoBehaviour:
       criticalBuff: 0
       regenHP: 0
     rscGain: 
-    cost: 1400000000000000
+    cost: 140000000a000000
     buildDuration: 1
     unBuildDuration: 1
     shootObjectT: {fileID: 0}
@@ -218,7 +222,7 @@ MonoBehaviour:
       criticalBuff: 0
       regenHP: 0
     rscGain: 
-    cost: 1400000000000000
+    cost: 140000000a000000
     buildDuration: 1
     unBuildDuration: 1
     shootObjectT: {fileID: 0}

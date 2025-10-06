@@ -304,9 +304,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabID: 15
   instanceID: -1
-  unitName: AirTower
+  unitName: Air Tower
   iconSprite: {fileID: -954185878, guid: a3e6ba056b20b764496e147245840825, type: 3}
-  desp: 
+  desp: 'Targets flying enemies with guided missiles that explode on impact.
+
+
+    Special:
+    Deals area damage and can briefly stun enemies.'
   defaultHP: 30
   fullHP: 10
   HP: 10
@@ -352,15 +356,15 @@ MonoBehaviour:
       criticalBuff: 0
       regenHP: 0
     rscGain: 
-    cost: 1400000000000000
+    cost: 140000000a000000
     buildDuration: 1
     unBuildDuration: 1
     shootObjectT: {fileID: 0}
     shootObject: {fileID: 11400000, guid: f8f20134fb1add94da92a01c7f71018d, type: 3}
     useCustomDesp: 0
     desp: 
-  - damageMin: 5
-    damageMax: 6
+  - damageMin: 7
+    damageMax: 8
     cooldown: 1
     clipSize: -1
     reloadDuration: 2
@@ -389,11 +393,11 @@ MonoBehaviour:
       criticalBuff: 0
       regenHP: 0
     rscGain: 
-    cost: 1400000000000000
+    cost: 140000000a000000
     buildDuration: 1
     unBuildDuration: 1
     shootObjectT: {fileID: 0}
-    shootObject: {fileID: 0}
+    shootObject: {fileID: 11400000, guid: f8f20134fb1add94da92a01c7f71018d, type: 3}
     useCustomDesp: 0
     desp: 
   dead: 0
