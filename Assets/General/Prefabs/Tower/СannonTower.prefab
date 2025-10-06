@@ -51,7 +51,7 @@ MonoBehaviour:
   prefabID: -1
   instanceID: -1
   unitName: "\u0421annonTower"
-  iconSprite: {fileID: 0}
+  iconSprite: {fileID: -1357661949, guid: a3e6ba056b20b764496e147245840825, type: 3}
   desp: 
   defaultHP: 10
   fullHP: 10

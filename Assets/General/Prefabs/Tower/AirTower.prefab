@@ -305,7 +305,7 @@ MonoBehaviour:
   prefabID: 15
   instanceID: -1
   unitName: AirTower
-  iconSprite: {fileID: 0}
+  iconSprite: {fileID: -954185878, guid: a3e6ba056b20b764496e147245840825, type: 3}
   desp: 
   defaultHP: 30
   fullHP: 10
