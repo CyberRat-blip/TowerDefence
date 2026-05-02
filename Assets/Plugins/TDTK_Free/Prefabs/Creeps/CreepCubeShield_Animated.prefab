@@ -247,8 +247,8 @@ MonoBehaviour:
   lifeCost: 1
   scoreValue: 1
   lifeValue: 0
-  valueRscMin: 0100000000000000
-  valueRscMax: 0200000000000000
+  valueRscMin: 010000000000000000000000
+  valueRscMax: 020000000000000000000000
   valueEnergyGain: 1
   rotateSpd: 10
   moveSpeed: 3

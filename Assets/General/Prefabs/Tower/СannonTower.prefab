@@ -101,8 +101,8 @@ MonoBehaviour:
       rangeBuff: 0
       criticalBuff: 0
       regenHP: 0
-    rscGain: 
-    cost: 140000000a000000
+    rscGain: 000000000000000000000000
+    cost: 140000000a00000000000000
     buildDuration: 1
     unBuildDuration: 1
     shootObjectT: {fileID: 0}
@@ -138,8 +138,8 @@ MonoBehaviour:
       rangeBuff: 0
       criticalBuff: 0
       regenHP: 0
-    rscGain: 
-    cost: 140000000a000000
+    rscGain: 000000000000000000000000
+    cost: 140000000a00000000000000
     buildDuration: 1
     unBuildDuration: 1
     shootObjectT: {fileID: 0}

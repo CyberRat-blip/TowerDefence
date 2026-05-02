@@ -53,3 +53,7 @@ MonoBehaviour:
     name: Parts
     icon: {fileID: 21300000, guid: 042fae2dd68bce044b8fbd1f26724a2d, type: 3}
     value: 15
+  - ID: 2
+    name: 123
+    icon: {fileID: 0}
+    value: 0
